@@ -8,9 +8,8 @@ function App() {
     <div className="app">
 
       
-      <Header/>
-      {/* Tinde
-      rcards */}
+      <Header />
+      {/* Tindercards */}
       {/* Swipebuttons */}
 
     </div>
