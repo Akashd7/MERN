@@ -7,6 +7,7 @@ function App() {
     // BEM class naing convention
     <div className="app">
 
+      
       <Header/>
       {/* Tinde
       rcards */}
