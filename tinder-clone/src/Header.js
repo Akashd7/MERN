@@ -6,7 +6,6 @@ import IconButton from "@material-ui/core/IconButton";
 function Header() {
     return (
         <div className='header'>
-            <h2>i am a header</h2>
             <IconButton>
                 <PersonIcon fontSize="large" className="header_icon" />
             </IconButton>
