@@ -1,19 +1,22 @@
-import React from 'react';
-import './TinderCards.css';
+import React,{useState} from 'react';
+import "./TinderCards.css";
 
 function TinderCards() {
-    const [ people ,setPeople ] = useState([
+    const [people ,setPeople ] = useState([
         {
-            name: 'Elon Musk',
-            url: "https://upload.wikimedia.org/wikipedia/commons/e/ed/Elon_Musk_Royal_Society.jpg"
-        }
+            name: "Elon Musk",
+            url: 
+            "https://upload.wikimedia.org/wikipedia/commons/e/ed/Elon_Musk_Royal_Society.jpg",
+        },
     ]);
-    return <div className="tindercards">
-            {people.map((person)=>(
+
+    return (
+    <div className="tindercards">
+            {people.map((person) => (
                 <h1>{person.name}</h1>
             ))}
-         </div>;
-    
+         </div>
+    );
 }
 
 export default TinderCards ;
