@@ -2,10 +2,9 @@ import React from 'react';
 import './TinderCards.css';
 
 function TinderCards() {
-    return (
-        <div className="tindercards">
-         </div>
-    )
+    return <div className="tindercards">
+         </div>;
+    
 }
 
-export default TinderCards className="tindercards"
+export default TinderCards ;
